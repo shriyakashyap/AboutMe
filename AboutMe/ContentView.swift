@@ -7,6 +7,7 @@
 
 import SwiftUI
 // comment
+// comment 2
 
 struct ContentView: View {
     
