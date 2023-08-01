@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+// comment
 
 struct ContentView: View {
     
@@ -25,14 +26,13 @@ struct ContentView: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding()
+                
+                Button("About me") {
+                }
+                .font(.title)
+                .buttonStyle(.borderedProminent)
+                .tint(.purple)
             }
-            
-            Button("About me") {
-            }
-            .font(.title)
-            .buttonStyle(.borderedProminent)
-            .tint(.purple)
-            
         }
     }
     
